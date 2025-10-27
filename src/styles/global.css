@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    color: #222;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Add anywhere in your global stylesheet */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 6px 16px rgba(12, 20, 40, 0.06);
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background: #2463FF;
+    color: #fff;
+    border-color: transparent;
+}
+
+.field {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.field input,
+.field textarea,
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+.label {
+    font-size: 13px;
+    color: #374151;
+    margin-bottom: 6px;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.muted {
+    color: #6b7280;
+}
+
+:focus {
+    outline: 3px solid rgba(36, 99, 255, 0.18);
+    outline-offset: 2px;
+}
+
+.nav-desktop {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* landing page styling */
+:root {
+    --primary: #4f46e5;
+    --dark: #1e1e1e;
+    --light: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.08);
+}
+
+.landing-container {
+    overflow: hidden;
+    background: #f8f9ff;
+    font-family: "Inter", sans-serif;
+}
+
+.max-width {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 120px 0 120px;
+    background: var(--primary);
+    color: var(--light);
+}
+
+/* Decorative Circle */
+.hero-circle {
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    filter: blur(2px);
+}
+
+.hero-content h1 {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    max-width: 520px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-filled,
+.btn-outline {
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-filled {
+    background: #ffffff;
+    color: var(--primary);
+}
+
+.btn-filled:hover {
+    opacity: 0.8;
+}
+
+.btn-outline {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline:hover {
+    background: #ffffff;
+    color: var(--primary);
+}
+
+/* Wave */
+.hero-wave {
+    display: block;
+    margin-top: 40px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 25px;
+    width: 300px;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px var(--shadow);
+    text-align: center;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 30px 0;
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 4rem;
+}
+
+/* header.css */
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-circle {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav-desktop {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
