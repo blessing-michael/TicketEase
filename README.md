@@ -44,7 +44,7 @@ Setup
 
 Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/ticketapp-react.git
+git clone git@github.com:blessing-michael/TicketEase.git
 cd ticketapp-react
 
 
