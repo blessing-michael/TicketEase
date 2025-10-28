@@ -28,7 +28,7 @@ Key Features <a name="key-features"></a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 🚀 Live Demo <a name="live-demo"></a>
-https://ticket-ease-nine.vercel.app/tickets
+https://ticket-ease-muzmt1nuw-blessingmichaels-projects-75dd603e.vercel.app/
 
 💻 Getting Started <a name="getting-started"></a>
 Prerequisites
