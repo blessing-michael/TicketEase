@@ -28,7 +28,10 @@ Key Features <a name="key-features"></a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 🚀 Live Demo <a name="live-demo"></a>
-https://ticket-ease-muzmt1nuw-blessingmichaels-projects-75dd603e.vercel.app/
+👉 react version
+- https://vermillion-gelato-45f7ef.netlify.app/
+👉 vue version
+- https://calm-begonia-1a3b8e.netlify.app/
 
 💻 Getting Started <a name="getting-started"></a>
 Prerequisites
