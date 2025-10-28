@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header"; // adjust path as needed
-import "./Landing.css";
+import "../styles/global.css";
 
 export default function Landing() {
     return (
